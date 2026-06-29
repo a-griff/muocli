@@ -1,0 +1,9 @@
+muocli_V1.0_source.zip - Source code distribution. Use this if someone wants to inspect or build muocli themselves.
+
+muocli_V1.0_linux-x64.zip - Linux x64 release. Includes the muocli Linux client executable, muocli-plugin.dll, docs, and example config files.
+
+muocli_V1.0_win-x64.zip - Windows x64 release. Includes muocli.exe, muocli-plugin.dll, docs, and example config files.
+
+muocli_V1.0_osx-x64.zip - macOS Intel release. Includes the macOS x64 muocli client executable, muocli-plugin.dll, docs, and example config files.
+
+muocli_V1.0_osx-arm64.zip - macOS Apple Silicon release. Includes the macOS arm64 muocli client executable, muocli-plugin.dll, docs, and example config files.
