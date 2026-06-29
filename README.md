@@ -1,7 +1,4 @@
-```markdown
-<p align="center">
-  <img src="muocli_logo_white.png" alt="MUOCLI Logo" width="800">
-</p>
+![MUOCLI Logo](./muocli_logo_white.png)
 
 # MUOCLI
 ### ModernUO Command Line Interface
@@ -42,16 +39,14 @@ It communicates with the MUOCLI plugin running on the shard, providing a simple,
 
 ## Components
 
-```
-
+```text
 release/
 ├── client/
 │   ├── linux-x64/
 │   └── windows-x64/
 │
 └── plugin/
-
-````
+```
 
 ### Client
 
@@ -71,7 +66,7 @@ List all accounts:
 
 ```bash
 muocli list
-````
+```
 
 Create an account:
 
@@ -95,7 +90,7 @@ muocli shutdown
 
 ## Building
 
-Linux
+### Linux
 
 ```bash
 dotnet publish \
@@ -105,7 +100,7 @@ dotnet publish \
     -p:PublishSingleFile=true
 ```
 
-Windows
+### Windows
 
 ```bash
 dotnet publish \
@@ -123,18 +118,18 @@ MUOCLI is intended for trusted administrative environments.
 
 Recommended practices:
 
-* Restrict access to the MUOCLI TCP port with a firewall.
-* Never expose the administrative port directly to the Internet.
-* Use a VPN, WireGuard, or SSH tunnel for remote administration.
-* Limit access to trusted administrators only.
+- Restrict access to the MUOCLI TCP port with a firewall.
+- Never expose the administrative port directly to the Internet.
+- Use a VPN, WireGuard, or SSH tunnel for remote administration.
+- Limit access to trusted administrators only.
 
 ---
 
 ## Requirements
 
-* ModernUO
-* MUOCLI Plugin
-* .NET 9 SDK (for building)
+- ModernUO
+- MUOCLI Plugin
+- .NET 9 SDK (for building)
 
 Published binaries do not require .NET to be installed.
 
@@ -142,18 +137,20 @@ Published binaries do not require .NET to be installed.
 
 ## Roadmap
 
-* Web administration interface
-* Additional player management commands
-* World administration commands
-* Improved server monitoring
-* Cross-platform release packages
+- Web administration interface
+- Additional player management commands
+- World administration commands
+- Improved server monitoring
+- Cross-platform release packages
 
 ---
 
 ## License
 
-MUOCLI  Copyright (c) 2026 Arvon Griffiths
-The source code is licensed under the PolyForm Noncommercial 1.0.0 license.
+Copyright (c) 2026 Arvon Griffiths
+
+The source code is licensed under the **PolyForm Noncommercial License 1.0.0**.
+
 Commercial use requires prior written permission from the copyright holder.
 
 ---
@@ -161,6 +158,3 @@ Commercial use requires prior written permission from the copyright holder.
 ## Author
 
 Created for the ModernUO community by Arfon.
-
-```
-```
