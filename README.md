@@ -9,6 +9,10 @@ It communicates with the MUOCLI plugin running on the shard, providing a simple,
 
 ---
 
+## NOTE: I do not have a Windows or MacOS machine so these have NOT been tested on those platforms.
+
+---
+
 ## Features
 
 ### Account Management
