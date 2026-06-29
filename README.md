@@ -46,8 +46,6 @@ It communicates with the MUOCLI plugin running on the shard, providing a simple,
 ```text
 release/
 ├── client/
-│   ├── linux-x64/
-│   └── windows-x64/
 │
 └── plugin/
 ```
